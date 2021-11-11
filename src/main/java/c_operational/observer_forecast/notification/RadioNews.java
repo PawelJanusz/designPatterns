@@ -1,6 +1,6 @@
-package c_operational.observerForecast.notification;
+package c_operational.observer_forecast.notification;
 
-import c_operational.observerForecast.weather.WeatherForecast;
+import c_operational.observer_forecast.weather.WeatherForecast;
 
 public class RadioNews implements Observer{
     @Override

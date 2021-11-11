@@ -1,9 +1,9 @@
-package c_operational.observerForecast;
+package c_operational.observer_forecast;
 
-import c_operational.observerForecast.notification.InternetNews;
-import c_operational.observerForecast.notification.RadioNews;
-import c_operational.observerForecast.notification.TvNews;
-import c_operational.observerForecast.weather.WeatherForecast;
+import c_operational.observer_forecast.notification.InternetNews;
+import c_operational.observer_forecast.notification.RadioNews;
+import c_operational.observer_forecast.notification.TvNews;
+import c_operational.observer_forecast.weather.WeatherForecast;
 
 public class Main {
 

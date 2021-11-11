@@ -1,6 +1,6 @@
-package c_operational.observerForecast.weather;
+package c_operational.observer_forecast.weather;
 
-import c_operational.observerForecast.notification.Observer;
+import c_operational.observer_forecast.notification.Observer;
 
 import java.util.HashSet;
 import java.util.Set;
