@@ -2,10 +2,24 @@ package a_creational.builder;
 
 
 import a_creational.builder.house.House;
+import a_creational.builder.oder.FlightLeg;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        FlightLeg flight = new FlightLeg.FlightLegBuilder()
+                .from("Wroclaw")
+                .to("NY")
+                .prize(567.32)
+                .delayed(false)
+                .build();
+
+        System.out.println("New flight: " + flight);
+
+
+        System.out.println("========================================================================");
+
 
         House smallHouse = new House.HouseBuilder()
                 .buildWalls("20 walls")
